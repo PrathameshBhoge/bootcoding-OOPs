@@ -5,13 +5,20 @@ import javax.management.ImmutableDescriptor;
 public class EX1 {
     public static void main(String[] args) {
         Magic m = new Magic();
+        VI vi= new VI();
+        m.print(vi);
         Airtel airtel= new Airtel();
         m.print(airtel);
+        Jio jio=new Jio();
+        m.print(jio);
     }
 }
 
-abstract class Sim{
-    abstract void intialize();
+ class Sim{
+     void intialize(){
+         System.out.println("I am sim ");
+
+     }
 }
 
 class Airtel extends Sim{
@@ -36,7 +43,7 @@ class Jio extends Sim{
 class Magic {
     public void print(Sim sim){
         System.out.println("Start");
-        System.out.println("Sim initialize ");
+       sim.intialize();
         System.out.println("End");
     }
 }

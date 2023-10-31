@@ -1,4 +1,4 @@
-package com.bootcoding.morning.inhertences.interfaces;
+package com.bootcoding.morning.abstraction.interfaces;
 
 public class EX1 {
     public static void main(String[] args) {

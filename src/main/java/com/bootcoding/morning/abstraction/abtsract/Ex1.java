@@ -1,4 +1,4 @@
-package com.bootcoding.morning.inhertences.abtsract;
+package com.bootcoding.morning.abstraction.abtsract;
 
 public class Ex1 {
     public static void main(String[] args) {
