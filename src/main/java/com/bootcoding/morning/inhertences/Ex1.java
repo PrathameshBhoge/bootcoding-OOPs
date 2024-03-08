@@ -10,7 +10,7 @@ public class Ex1 {
     }
 }
 
-class A{
+class A{//parent
      int n;
     void setA(int n){
         this.n=n;
