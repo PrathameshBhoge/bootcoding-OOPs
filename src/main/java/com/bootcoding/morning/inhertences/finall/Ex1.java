@@ -7,7 +7,7 @@ public class Ex1 {
 }
 
 //We can't inherit the final class
- /*final*/class A{
+ /*final*/ class A{
      //Final method can't be overriden
     /*final*/void show(){
         System.out.println("I am in A");

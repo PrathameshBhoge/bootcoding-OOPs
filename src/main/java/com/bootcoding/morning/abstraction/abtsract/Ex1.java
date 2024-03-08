@@ -2,7 +2,7 @@ package com.bootcoding.morning.abstraction.abtsract;
 
 public class Ex1 {
     public static void main(String[] args) {
-       // A a1= new A();
+       //A a1= new A();
         A a1;
         B b1=new B();
         b1.showA();
@@ -19,4 +19,8 @@ abstract class A{
 //if we want to call the method present in abstract class we have to create another class and the inherit them
 //  then call the mmethod of abstract class by using the object of child class
  class B extends A{
+    @Override
+    void showA() {
+        super.showA();
+    }
 }
